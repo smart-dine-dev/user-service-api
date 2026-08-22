@@ -1,5 +1,5 @@
 package com.devstack.SmartDine.entity.enums;
 
 public enum AuthProvider {
-    LOCAL
+    LOCAL, GOOGLE, GITHUB, KEYCLOAK
 }
