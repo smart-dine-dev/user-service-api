@@ -14,6 +14,6 @@ public class UpdateProfileRequestDto {
     private String firstName;
     private String lastName;
     private String phoneNumber;
-    private String profilePictureUrl; // direct image -> ec2 -> link -> API
+    private String profilePictureUrl; // direct image -> s3 -> link -> API
 
 }
