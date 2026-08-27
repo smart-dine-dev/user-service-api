@@ -28,6 +28,8 @@ public class KeyCloakConfig {
         private String secretId;
         private Admin admin = new Admin();
 
+        @Getter
+        @Setter
         public static class Admin{
             private String username;
             private String password;
