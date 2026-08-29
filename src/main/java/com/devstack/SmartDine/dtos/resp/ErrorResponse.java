@@ -1,4 +1,4 @@
-package com.devstack.SmartDine.exceptions;
+package com.devstack.SmartDine.dtos.resp;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
